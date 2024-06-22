@@ -1,10 +1,12 @@
-import Main from "./pages";
+import './App.css'
+import Wordle from './components/Wordle'
+
 function App() {
-  return (
-    <div className="App">
-      <Main />
-    </div>
-  );
+	return (
+		<div className='App'>
+			<Wordle />
+		</div>
+	)
 }
 
-export default App;
+export default App
