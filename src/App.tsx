@@ -1,10 +1,10 @@
-import './App.css'
-import Wordle from './components/Wordle'
-
+import React from 'react'
+import './index.css'
+import WordG from './components/Pages/WordG'
 function App() {
 	return (
 		<div className='App'>
-			<Wordle />
+      <WordG/>
 		</div>
 	)
 }
